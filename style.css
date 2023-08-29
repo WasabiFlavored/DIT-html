@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    background-color: #152614e2;
+    justify-content: center;
+    padding: 15px 50px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav a{
+    color: white;
+    padding: 15px 40px;
+    margin: 0px 10px;
+
+}
+
+nav a:hover{
+    background-color: #AAC0AA;
+    transition: 0.2s;
+    color: black;
+}
+
+nav ul:hover{
+    background-color: #152614;
+    transition: 0.2s;
+}
+
+.hero{
+    margin-top: 49px;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.068)), url(minecraft-water.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero1{
+    margin-top: 49px;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.068)), url(minecraft-1618142_1280.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.hero h1{
+    font-family: acme;
+    font-size: 120px;
+  
+}
+
+h1{
+    font-family: acme;
+}
+
+.hero1 h1{
+    font-family: acme;
+    font-size: 120px;
+}
+
+.hero1 a{
+    color: black;
+    padding: 8px 12px;
+    background-color: rgba(237, 234, 234, 0.903);
+    margin-bottom: 245px;
+}
+
+.hero1 a:hover{
+   background-color: rgb(179, 178, 178);
+   transition: 0.1s;
+}
+
+.hero a{
+    color: black;
+    padding: 8px 12px;
+    background-color: rgba(237, 234, 234, 0.903);
+    margin-bottom: 245px;
+}
+
+.hero a:hover{
+   background-color: rgb(179, 178, 178);
+   transition: 0.1s;
+}
+
+p {
+    font-family: ubuntu;
+    font-size: 20px;
+}
+
+.section{
+    background-color: #152614;
+    color: white;
+    text-align: center;
+    padding: 5px 5px ;
+    
+}
+
+.card{
+    width: 700px;
+    margin: 20px 15px;
+    box-shadow: 5px 10px#1526141b;
+}
+
+.text{
+    background-color: #AAC0AA;
+    padding: 20px 50px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.age{
+    background-color: #6d4c3d;
+    color: white;
+    width: 1420px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: 5px 0px#1526141b;
+}
+
+.agetext{
+    background-color: #9c7b7280;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 15px 50px;
+    box-shadow: 5px 10px#1526141b;
+}
+
+.footer-box{
+    background-color: #152614;
+    margin-top: 125px;
+    padding-top: 100px;
+}
+
+.footer{
+    width: 35%;
+    height: 40vh;
+    margin: 0 auto;
+   text-align: center;
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-heading h2{
+    margin-bottom: 20px;
+    color: white;
+    font-family: acme;
+}
+
+.footer-heading a{
+    color: #AAC0AA;
+    text-align: center;
+}
+
+.footer-heading a:hover{
+    color: #CBe896;
+}
+
+.top{
+    margin-top: 49px;
+}
+
+.box{
+    display: flex;
+}
+
+.cards{
+    border: rgb(165, 154, 154) 2px solid;
+    margin: 30px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgba(128, 128, 128, 0.303);
+    background-color: #618b4a;
+    color: white;
+}
+
+.cards h2{
+    font-family: acme;
+    font-size: 50px;
+
+}
+
+
+.cards ul{
+    margin-top: 30px;
+}
+
+.cards li{
+    font-size: 25px;
+    font-family: ubuntu;
+}
+
+.heading{
+    padding-top: 20px;
+    background-color: #40531b;
+    height: 100px;
+    width: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardtext{
+    background-color: #618b4a;
+    height: 400px;
+    width: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardtext li{
+    padding-top: 20px;
+}
+
+.hero2{
+    margin-top: 49px;
+    background-image:linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.068)), url(minecraft-1106252_1280.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.hero2 h1{
+    font-family: acme;
+    font-size: 120px;
+}
+
+.h1aboutus{
+    width: 80%;
+    background-color: #6d4c3d;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.paboutus{
+    width:80%;
+    text-align: center;
+    margin: 0 auto  ;
+    background-color: rgb(146, 107, 107);
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+}
+
+.paboutus p{
+    font-family: acme;
+    padding: 20px 20px;
+}
